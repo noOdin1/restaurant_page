@@ -1,1 +1,2 @@
-<h1>Restaurant Page - TOP project</h1></h3> - JavaScript 25%</h3>
+<h1>Restaurant Page - TOP project</h1>
+Progress - JavaScript 25%<br>
