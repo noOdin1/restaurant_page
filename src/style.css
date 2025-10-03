@@ -7,3 +7,22 @@
   color: black;
   background: white;
 }
+
+.main.container {
+  width: clamp(480px, 60%, 1280px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.top.container {
+  width: 100%;
+  height: 15vh;
+  border: 1px solid MediumVioletRed;
+}
+
+.content.container {
+  width: 100%;
+  height: 85vh;
+  border: 1px solid MediumVioletRed;
+}
