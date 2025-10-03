@@ -13,3 +13,8 @@ This Project's goal:
        c. .gitignore
      on the list. 
 </pre>
+
+Acknowledgements
+
+<h3>Background Image</h3>
+https://www.pexels.com/search/restaurant/ (author: Zak Chapman)
