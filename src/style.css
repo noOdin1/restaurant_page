@@ -8,8 +8,14 @@
   background: white;
 }
 
+/* Variables for css styling */
+:root {
+  --container_width: clamp(480px, 60%, 1280px);
+}
+
 .main.container {
-  width: clamp(480px, 60%, 1280px);
+  /* width: clamp(480px, 60%, 1280px); */
+  width: var(--container_width);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
