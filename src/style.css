@@ -34,8 +34,8 @@ body {
 }
 
 .main.container {
-  /* width: clamp(480px, 60%, 1280px); */
   width: var(--container_width);
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
