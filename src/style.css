@@ -22,6 +22,17 @@
   --css_visual_border_guide: 1px solid MediumVioletRed;
 }
 
+/* NOTE: The following is how to place a bg img 
+*        at the center, the image will cover 
+*        the container, no repeat of the image. 
+**/
+body {
+  background-image: url("main_bg_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .main.container {
   /* width: clamp(480px, 60%, 1280px); */
   width: var(--container_width);
