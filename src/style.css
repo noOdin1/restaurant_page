@@ -168,6 +168,14 @@ p.description {
   background-repeat: no-repeat;
 }
 
+ul.operatingHours {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -8.5em;
+  padding: 1.5em 5em;
+  background-color: var(--bgColor_seethru);
+}
+
   font-size: 1.5em;
   width: 100%;
   height: 85vh;
