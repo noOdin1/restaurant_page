@@ -55,6 +55,9 @@ body {
 .top.container {
   width: var(--inner_container_width);
   height: var(--top_container_height);
+  background-color: var(--bgColor_seethru);
+  display: flex;
+  flex-direction: column;
 }
 
 .content.container {
