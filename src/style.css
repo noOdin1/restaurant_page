@@ -121,6 +121,19 @@ button:hover {
   transition: 0.8s;
 }
 
+button:not(:hover) {
+  background-color: var(--bgColor_seethru);
+  background-image: linear-gradient(
+    to right,
+    var(--bgColor_seethru) 0%,
+    rgba(255, 255, 255, 0.4) 8%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.4) 92%,
+    var(--bgColor_seethru) 100%
+  );
+  transition: 0.8s;
+}
+
 .content.container {
   width: 100%;
   height: 85vh;
