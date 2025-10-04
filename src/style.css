@@ -17,7 +17,6 @@
   --bgColor_more_cthru: rgba(255, 255, 255, 0.3);
   --bgColor_medium_cthru: rgba(255, 255, 255, 0.7);
   --bgColor_seethru: rgba(0, 0, 0, 0);
-  /* --mainTitle_color: rgba(0, 36, 36, 1); */
   --mainTitle_color: rgba(0, 255, 247, 1);
   --css_visual_border_guide: 1px solid MediumVioletRed;
 }
