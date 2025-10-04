@@ -60,6 +60,26 @@ body {
   flex-direction: column;
 }
 
+h1 {
+  font-size: 3.5em;
+  font-family: Garamond;
+  color: var(--mainTitle_color);
+  text-shadow: 2px 2px #0018f0;
+  margin: 0.3em auto 0 auto;
+  background-color: var(--bgColor_seethru);
+  background-image: linear-gradient(
+    to right,
+    var(--bgColor_seethru) 0%,
+    rgba(255, 255, 255, 0.2) 8%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.2) 92%,
+    var(--bgColor_seethru) 100%
+  );
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .content.container {
   width: 100%;
   height: 85vh;
