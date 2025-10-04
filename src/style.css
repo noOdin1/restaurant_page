@@ -39,6 +39,18 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-color: var(--bgColor_seethru);
+  background-image: linear-gradient(
+    to right,
+    var(--bgColor_seethru) 0%,
+    rgba(0, 202, 255, 0.2) 2%,
+    rgba(0, 202, 255, 0.3) 50%,
+    rgba(0, 202, 255, 0.2) 98%,
+    var(--bgColor_seethru) 100%
+  );
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .top.container {
