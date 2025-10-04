@@ -89,6 +89,25 @@ h1 {
   background-color: var(--bgColor_seethru);
 }
 
+button.links {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.2em 1em;
+  background-color: var(--bgColor_seethru);
+  background-image: linear-gradient(
+    to right,
+    var(--bgColor_seethru) 0%,
+    rgba(255, 255, 255, 0.4) 8%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.4) 92%,
+    var(--bgColor_seethru) 100%
+  );
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+}
+
 .content.container {
   width: 100%;
   height: 85vh;
