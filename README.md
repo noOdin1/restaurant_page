@@ -17,4 +17,4 @@ This Project's goal:
 Acknowledgements
 
 <h3>Background Image</h3>
-https://www.pexels.com/search/restaurant/ (author: Zak Chapman)
+https://www.pexels.com/photo/fixed-tables-and-chairs-2728186/ (author: Karl Solano)
