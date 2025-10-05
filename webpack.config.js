@@ -1,5 +1,4 @@
 // webpack.config.js - restaurant webpage
-
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
@@ -10,6 +9,10 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
+  },
+  devtool: "eval-source-map",
+  devServer: {
+    watchFiles: ["./src/template.html"],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -24,7 +27,7 @@ module.exports = {
       },
       {
         test: /\.html$/i,
-        loader: ["html-loader"],
+        loader: "html-loader",
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
