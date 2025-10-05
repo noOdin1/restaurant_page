@@ -1,4 +1,4 @@
-// webpack.config.js
+// webpack.config.js - restaurant webpage
 
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
