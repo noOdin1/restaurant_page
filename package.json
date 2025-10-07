@@ -1,21 +1,4 @@
 {
-  "name": "restaurant_page",
-  "version": "1.0.0",
-  "description": "Webpage for a Restaurant using npm and Webpack",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/noOdin1/restaurant_page.git"
-  },
-  "author": "R Mowe",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/noOdin1/restaurant_page/issues"
-  },
-  "homepage": "https://github.com/noOdin1/restaurant_page#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
