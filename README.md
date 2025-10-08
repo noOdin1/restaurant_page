@@ -16,7 +16,7 @@ This Project's goal:
 
 Acknowledgements
 
-<h3>Background Image</h3>
+<h4>Background Image</h4>
 https://www.pexels.com/photo/fixed-tables-and-chairs-2728186/ (author: Karl Solano)
 
 2025-10-08 18:20 <br>
