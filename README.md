@@ -17,7 +17,7 @@ This Project's goal:
 Acknowledgements
 
 <h4>Background Image</h4>
-https://www.pexels.com/photo/fixed-tables-and-chairs-2728186/ (author: Karl Solano)
+https://www.pexels.com/photo/fixed-tables-and-chairs-2728186/ (author: Karl Solano) <br><br>
 
 2025-10-08 18:20 <br>
 Problem Encountered recently: <br>
