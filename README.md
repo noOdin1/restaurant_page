@@ -17,7 +17,15 @@ This Project's goal:
 Acknowledgements
 
 <h4>Background Image</h4>
-https://www.pexels.com/photo/fixed-tables-and-chairs-2728186/ (author: Karl Solano) <br><br>
+https://www.pexels.com/photo/fixed-tables-and-chairs-2728186/ (author: Karl Solano)<br> 
+<h4>Lasagna Picture</h4>
+https://www.freepik.com/free-photo/classic-lasagna-with-bolognese-sauce_6963556.htm#fromView=keyword&page=1&position=10&uuid=25dd44cd-eea9-474c-af3f-6257f14b7534&query=Lasagna (author: timolina) <br>
+<h4>Sweet Sour Chicken Picture</h4>
+https://www.freepik.com/free-photo/chicken-dish-with-vegetables_967032.htm#fromView=search&page=1&position=2&uuid=7f88817a-3048-4fba-9261-eb2360b78710&query=sweet+sour+chicken (author: mrsiraphol) <br>
+<h4>Lamb Curry picture</h4>
+<a href="https://www.vecteezy.com/free-photos/lamb-curry">Lamb Curry Stock photos by Vecteezy</a> <br>
+<h4>Steak picture</h4>
+Image by <a href="https://pixabay.com/users/kandk-21762863/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6278031">kandk</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6278031">Pixabay</a><br>
 
 2025-10-08 18:20 <br>
 Problem Encountered recently: <br>
