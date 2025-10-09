@@ -3,21 +3,19 @@
 export { removeAllChildElemByClass, removeAllChildElemById };
 
 function removeAllChildElemByClass(elem, index) {
-  let htmlElem = document.getElementsByClassName(elem);
-  let child = htmlElem[index].lastElementChild;
+  let child = elem[index].lastElementChild;
 
   while (child) {
-    htmlElem[index].removeChild(child);
-    child = htmlElem[index].lastElementChild;
+    elem[index].removeChild(child);
+    child = elem[index].lastElementChild;
   }
 }
 
 function removeAllChildElemById(elem) {
-  let htmlElem = document.getElementById(elem);
-  let child = htmlElem.lastElementChild;
+  let child = elem.lastElementChild;
 
   while (child) {
-    htmlElem.removeChild(child);
-    child = htmlElem.lastElementChild;
+    elem.removeChild(child);
+    child = elem.lastElementChild;
   }
 }
