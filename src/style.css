@@ -80,6 +80,18 @@ h1 {
   background-repeat: no-repeat;
 }
 
+h1:not(:hover) {
+  background-image: linear-gradient(
+    to right,
+    var(--bgColor_seethru) 0%,
+    rgba(255, 255, 255, 0.1) 8%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.1) 92%,
+    var(--bgColor_seethru) 100%
+  );
+  transition: 0.5s;
+}
+
 .navBtnCnt {
   display: flex;
   flex-direction: row;
