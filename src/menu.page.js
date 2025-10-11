@@ -12,4 +12,7 @@ import steakPic from "./steak.jpg";
 import spicyLambCurryPic from "./spicy_lamb_curry.jpg";
 
 function loadMenuPage() {
+  let contentCnt = document.getElementsByClassName("content");
+  removeAllChildElemByClass(contentCnt, 0);
+
 }
