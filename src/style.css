@@ -183,7 +183,7 @@ p.description {
 ul.operatingHours {
   width: 80%;
   margin: 0 auto;
-  margin-top: -6.5em;
+  margin-top: -7em;
   padding: 1.5em 5em;
   background-color: var(--bgColor_seethru);
 }
