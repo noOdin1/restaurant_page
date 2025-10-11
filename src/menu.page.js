@@ -68,4 +68,23 @@ function loadMenuPage() {
   let thirdDiv = createElement("div", ["content", "item"], "thirdItem");
   let fourthDiv = createElement("div", ["content", "item"], "fourthItem");
 
+  firstDiv.appendChild(firstImg);
+  firstDiv.appendChild(itemDesc1);
+
+  secondDiv.appendChild(secondImg);
+  secondDiv.appendChild(itemDesc2);
+
+  thirdDiv.appendChild(thirdImg);
+  thirdDiv.appendChild(itemDesc3);
+
+  fourthDiv.appendChild(fourthImg);
+  fourthDiv.appendChild(itemDesc4);
+
+  subContentCnt.appendChild(menuIntro);
+  subContentCnt.appendChild(firstDiv);
+  subContentCnt.appendChild(secondDiv);
+  subContentCnt.appendChild(thirdDiv);
+  subContentCnt.appendChild(fourthDiv);
+
+  contentCnt[0].appendChild(subContentCnt);
 }
