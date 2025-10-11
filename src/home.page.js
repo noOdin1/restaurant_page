@@ -7,6 +7,10 @@ import {
 } from "./removeAllChildElem.js";
 
 function loadHomePage() {
+  let contentCnt = document.getElementsByClassName("content");
+
+  removeAllChildElemByClass(contentCnt, 0);
+
   let mainContentParagraph = elementCreator(
     "p",
     "description",
@@ -37,7 +41,6 @@ function loadHomePage() {
   unorderedLst.appendChild(listItems1);
   unorderedLst.appendChild(listItems2);
 
-  let contentCnt = document.getElementsByClassName("content");
   contentCnt[0].appendChild(mainContentParagraph);
   contentCnt[0].appendChild(unorderedLst);
 }
