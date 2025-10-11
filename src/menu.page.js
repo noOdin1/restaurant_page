@@ -62,4 +62,10 @@ function loadMenuPage() {
     "fourthDesc",
     "Our flavorful Asian dish of lamb curry, slow-cooked stew of tender lamb in a rich, aromatic sauce made with our very own secret spices and herbs, will definately satisfy your appetite.",
   );
+
+  let firstDiv = createElement("div", ["content", "item"], "firstItem");
+  let secondDiv = createElement("div", ["content", "item"], "secondItem");
+  let thirdDiv = createElement("div", ["content", "item"], "thirdItem");
+  let fourthDiv = createElement("div", ["content", "item"], "fourthItem");
+
 }
