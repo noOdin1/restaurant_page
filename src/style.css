@@ -130,7 +130,7 @@ button:hover {
     rgba(255, 255, 255, 0.6) 98%,
     var(--bgColor_seethru) 100%
   );
-  transition: 0.8s;
+  transition: 0.5s;
 }
 
 button:not(:hover) {
@@ -143,7 +143,7 @@ button:not(:hover) {
     rgba(255, 255, 255, 0.4) 92%,
     var(--bgColor_seethru) 100%
   );
-  transition: 0.8s;
+  transition: 0.5s;
 }
 
 button:active {
