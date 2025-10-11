@@ -20,4 +20,11 @@ function loadMenuPage() {
     ["subContent", "container"],
     "subContentCnt",
   );
+  let menuIntro = createElement(
+    "p",
+    ["intro", "content"],
+    "introPara",
+    "Here is a sample of the scrumptous food that we have to offer: ",
+  );
+
 }
