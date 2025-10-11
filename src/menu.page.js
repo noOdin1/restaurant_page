@@ -11,3 +11,5 @@ import sweetSourChixPic from "./sweetSourChicken_192x128.jpg";
 import steakPic from "./steak.jpg";
 import spicyLambCurryPic from "./spicy_lamb_curry.jpg";
 
+function loadMenuPage() {
+}
