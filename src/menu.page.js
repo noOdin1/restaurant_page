@@ -4,3 +4,4 @@ import {
   removeAllChildElemByClass,
   removeAllChildElemById,
 } from "./removeAllChildElem.js";
+import createElement from "./element_creator.js";
