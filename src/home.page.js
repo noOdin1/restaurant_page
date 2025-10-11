@@ -1,6 +1,10 @@
 /* home.page.js - restaurant webpage */
 export default loadHomePage;
 import elementCreator from "./element_creator.js";
+import {
+  removeAllChildElemByClass,
+  removeAllChildElemById,
+} from "./removeAllChildElem.js";
 
 function loadHomePage() {
   let mainContentParagraph = elementCreator(
