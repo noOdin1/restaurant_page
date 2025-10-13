@@ -48,3 +48,9 @@
   background-repeat: no-repeat;
 }
 
+.content.image {
+  width: 12em;
+  height: 8rem;
+  margin: 0.65em 2em;
+}
+
