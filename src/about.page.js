@@ -145,5 +145,11 @@ function loadAboutPage() {
 
   div3rdRow.appendChild(submitBtn);
 
+  formFieldset.appendChild(fieldsetLegend);
+  formFieldset.appendChild(div1stRow);
+  formFieldset.appendChild(div2ndRow);
+  formFieldset.appendChild(div3rdRow);
+  contactFrm.appendChild(formFieldset);
+
   subContentCnt.appendChild(subContentParaCnt);
 }
