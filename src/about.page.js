@@ -2,3 +2,7 @@
 
 export default loadAboutPage;
 
+import {
+  removeAllChildElemByClass,
+  removeAllChildElemById,
+} from "./removeAllChildElem.js";
