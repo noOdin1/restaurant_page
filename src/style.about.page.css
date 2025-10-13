@@ -33,3 +33,9 @@ fieldset {
   padding: 1em;
 }
 
+#formFirstRow,
+#formSecondRow,
+#formThirdRow {
+  margin: 1em 1em;
+}
+
