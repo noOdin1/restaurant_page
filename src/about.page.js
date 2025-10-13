@@ -25,5 +25,12 @@ function loadAboutPage() {
     "City Hideaway Restaurant is staffed by people who are experts in their field. We are conveniently located in a quiet part of the city, easily accessible and a huge parking space available. Make a reservation with us, ",
   );
 
+  let contactFrm = createElement(
+    "form",
+    ["transparentBG"],
+    "customerContactForm",
+  );
+
+  contactFrm.method = "post";
   subContentCnt.appendChild(subContentParaCnt);
 }
