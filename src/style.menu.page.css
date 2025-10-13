@@ -54,3 +54,11 @@
   margin: 0.65em 2em;
 }
 
+p.menuDescription {
+  height: 8rem;
+  width: 65%;
+  text-align: justify;
+  margin: 0.5em 0;
+  font-size: 1.4em;
+  background-color: var(--bgColor_seethru);
+}
