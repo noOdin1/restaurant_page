@@ -155,4 +155,9 @@ function loadAboutPage() {
   subContentCnt.appendChild(contactFrm);
   contentCnt[0].appendChild(subContentCnt);
 
+  contactFrm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    contactFrm.reset();
+  });
 }
