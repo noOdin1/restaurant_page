@@ -4,14 +4,27 @@ Progress - JavaScript 25%<br>
 This Project's goal:
 
 <pre>
-  1. Start project with the similar workflow as the practice for webpack
-  2. Plan out your webpage layout
-  3. Identify the resources needed for the webpage, images to be used
-  4. Create a .gitignore with 
+  1. Start project with the similar workflow as the practice for webpack [done]
+  2. Plan out your webpage layout                                        [done]
+  3. Identify the resources needed for the webpage, images to be used    [done]
+  4. Create a .gitignore with                                            [done]
        a. 'node_modules/'
        b. 'dist/'
        c. .gitignore
      on the list. 
+  5. Set up HTML skeleton in 'src/template.html'.                        [done]
+  6. Add a <header></header> in the body of template.html                [done]
+  7. Add nav buttons within 'header' element                             [done]
+  8. Test the skeleton with a console printout                           [done]
+  9. Create initial page with a div#content                              [done]
+  10. Initial webpage creation and styling for main page                 [done]
+  11. Remove all html elements in div#content and generate with js       [done]
+  12. Load functions and modules using index.js                          [done]
+  13. Each page for the restaurant in separate js                        [done]
+       a. home.page.js (the landing page)
+       b. menu.page.js (page with a sample menu)
+       c. about.page.js (page with a description and inforamation form)
+  14. Tab switching logic with event listener for each nav buttons       [done]
 </pre>
 
 Acknowledgements
