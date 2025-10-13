@@ -39,3 +39,13 @@ fieldset {
   margin: 1em 1em;
 }
 
+.firstRow.left,
+.firstRow.right,
+.secondRow.left,
+.secondRow.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 0.2em;
+}
+
