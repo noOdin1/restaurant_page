@@ -39,5 +39,12 @@ function loadAboutPage() {
     "formFieldset",
   );
 
+  let fieldsetLegend = createElement(
+    "legend",
+    ["label", "transparentBG"],
+    "formLegend",
+  );
+  fieldsetLegend.textContent = "Contact Information";
+
   subContentCnt.appendChild(subContentParaCnt);
 }
