@@ -56,5 +56,21 @@ function loadAboutPage() {
     ["left", "firstRow", "transparentBG"],
     "firstRowLeftDiv",
   );
+  let firstNameLbl = createElement(
+    "label",
+    ["label", "transparentBG"],
+    "firstNameLbl",
+  );
+  firstNameLbl.textContent = "First Name:";
+  firstNameLbl.for = "firstName";
+  let firstNameInput = createElement("input", "textInput", "firstNameInput");
+  firstNameInput.type = "text";
+  firstNameInput.name = "firstName";
+  firstNameInput.required = true;
+
+  firstRowLeft.appendChild(firstNameLbl);
+  firstRowLeft.appendChild(firstNameInput);
+
+  div1stRow.appendChild(firstRowLeft);
   subContentCnt.appendChild(subContentParaCnt);
 }
