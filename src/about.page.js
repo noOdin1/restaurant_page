@@ -134,5 +134,10 @@ function loadAboutPage() {
 
   div2ndRow.appendChild(secondRowRight);
 
+  let div3rdRow = createElement(
+    "div",
+    ["leftRight", "formDivCnt", "transparentBG"],
+    "formThirdRow",
+  );
   subContentCnt.appendChild(subContentParaCnt);
 }
