@@ -32,5 +32,12 @@ function loadAboutPage() {
   );
 
   contactFrm.method = "post";
+
+  let formFieldset = createElement(
+    "fieldset",
+    ["transparentBG"],
+    "formFieldset",
+  );
+
   subContentCnt.appendChild(subContentParaCnt);
 }
