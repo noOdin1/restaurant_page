@@ -14,3 +14,18 @@ Array.from(btnGrp).forEach((btn) => {
   btn.addEventListener("click", btnClick);
 });
 
+function btnClick(event) {
+  if (event.target.id == "homeBtn") {
+    loadHomePage();
+    return;
+  }
+  if (event.target.id == "menuBtn") {
+    loadMenuPage();
+    return;
+  }
+  if (event.target.id == "aboutBtn") {
+    loadAboutPage();
+    return;
+  }
+}
+
