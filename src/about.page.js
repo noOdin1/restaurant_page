@@ -152,4 +152,7 @@ function loadAboutPage() {
   contactFrm.appendChild(formFieldset);
 
   subContentCnt.appendChild(subContentParaCnt);
+  subContentCnt.appendChild(contactFrm);
+  contentCnt[0].appendChild(subContentCnt);
+
 }
