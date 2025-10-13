@@ -8,4 +8,4 @@ import loadHomePage from "./home.page.js";
 import loadAboutPage from "./about.page.js";
 import loadMenuPage from "./menu.page.js";
 
-console.log("Compilation works, hello world!");
+// console.log("Compilation works, hello world!");
