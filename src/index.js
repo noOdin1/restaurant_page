@@ -9,3 +9,8 @@ import loadAboutPage from "./about.page.js";
 import loadMenuPage from "./menu.page.js";
 
 // console.log("Compilation works, hello world!");
+let btnGrp = document.getElementsByClassName("button");
+Array.from(btnGrp).forEach((btn) => {
+  btn.addEventListener("click", btnClick);
+});
+
