@@ -19,3 +19,7 @@
   background-repeat: no-repeat;
 }
 
+.transparentBG {
+  background-color: var(--bgColor_seethru);
+}
+
