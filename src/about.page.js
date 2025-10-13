@@ -89,5 +89,10 @@ function loadAboutPage() {
   lastNameInput.type = "text";
   lastNameInput.name = "lastName";
 
+  firstRowRight.appendChild(lastNameLbl);
+  firstRowRight.appendChild(lastNameInput);
+
+  div1stRow.appendChild(firstRowRight);
+
   subContentCnt.appendChild(subContentParaCnt);
 }
