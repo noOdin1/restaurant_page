@@ -33,7 +33,7 @@ function loadMenuPage() {
     "p",
     ["content", "menuDescription"],
     "firstDesc",
-    "Come and sample our rich Italian baked Lasagna Bolognese pasta dish, mixed with egg,  and slow-cooked meat sauce (ragù alla Bolognese), and creamy béchamel sauce, all topped with Parmigiano-Reggiano cheese and baked until bubbly and golden.",
+    "Come and sample our rich Italian baked Lasagna Bolognese pasta dish, mixed with egg,  and slow-cooked meat sauce (ragù alla Bolognese), and creamy béchamel sauce, all topped with Parmigiano-Reggiano cheese and baked until it's bubbly and golden.",
   );
 
   let secondImg = createElement("img", ["content", "image"], "secondImg");
@@ -51,7 +51,7 @@ function loadMenuPage() {
     "p",
     ["content", "menuDescription"],
     "thirdDesc",
-    "Our farm fresh steak is juicy, full of delicious moisture and as you cut into the steak, the free flowing juices just makes every piece even more delicious. Each bite of that tenderness and taste will you of the beef's freshness.",
+    "Our farm fresh steak is juicy, full of delicious moisture and as you cut into the steak, the free flowing juices just makes every piece even more delicious. Each bite of that tenderness and taste will you begging for more.",
   );
 
   let fourthImg = createElement("img", ["content", "image"], "fourthImg");
