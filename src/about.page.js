@@ -18,4 +18,12 @@ function loadAboutPage() {
     "subAboutContentCnt",
   );
 
+  let subContentParaCnt = createElement(
+    "p",
+    ["restaurantDesc", "intro", "content"],
+    "aboutDescPara",
+    "City Hideaway Restaurant is staffed by people who are experts in their field. We are conveniently located in a quiet part of the city, easily accessible and a huge parking space available. Make a reservation with us, ",
+  );
+
+  subContentCnt.appendChild(subContentParaCnt);
 }
