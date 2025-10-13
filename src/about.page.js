@@ -78,5 +78,16 @@ function loadAboutPage() {
     ["right", "firstRow", "transparentBG"],
     "firstRowRightDiv",
   );
+  let lastNameLbl = createElement(
+    "label",
+    ["label", "transparentBG"],
+    "secondNameLbl",
+  );
+  lastNameLbl.textContent = "Last Name:";
+  lastNameLbl.for = "lastName";
+  let lastNameInput = createElement("input", ["textInput"], "lastNameInput");
+  lastNameInput.type = "text";
+  lastNameInput.name = "lastName";
+
   subContentCnt.appendChild(subContentParaCnt);
 }
