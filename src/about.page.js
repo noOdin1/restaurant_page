@@ -142,5 +142,8 @@ function loadAboutPage() {
   let submitBtn = createElement("button", ["form", "button"], "submitBtn");
   submitBtn.textContent = "Submit";
   submitBtn.type = "submit";
+
+  div3rdRow.appendChild(submitBtn);
+
   subContentCnt.appendChild(subContentParaCnt);
 }
