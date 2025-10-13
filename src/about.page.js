@@ -94,5 +94,45 @@ function loadAboutPage() {
 
   div1stRow.appendChild(firstRowRight);
 
+  let div2ndRow = createElement(
+    "div",
+    ["formDivCnt", "transparentBG"],
+    "formSecondRow",
+  );
+  let secondRowLeft = createElement(
+    "div",
+    ["left", "secondRow", "transparentBG"],
+    "secondRowLeftDiv",
+  );
+  let telLbl = createElement("label", ["label", "transparentBG"], "telLbl");
+  telLbl.textContent = "Contact Number:";
+  telLbl.for = "telNo";
+  let telInput = createElement("input", "textInput", "telInput");
+  telInput.type = "tel";
+  telInput.required = true;
+  telInput.name = "telNo";
+
+  secondRowLeft.appendChild(telLbl);
+  secondRowLeft.appendChild(telInput);
+
+  div2ndRow.appendChild(secondRowLeft);
+
+  let secondRowRight = createElement(
+    "div",
+    ["right", "secondRow", "transparentBG"],
+    "secondRowRightDiv",
+  );
+  let emailLbl = createElement("label", ["label", "transparentBG"], "emailLbl");
+  emailLbl.textContent = "Email Add:";
+  emailLbl.for = "emailAdd";
+  let emailInput = createElement("input", "textInput", "emailInput");
+  emailInput.type = "email";
+  emailInput.name = "emailAdd";
+
+  secondRowRight.appendChild(emailLbl);
+  secondRowRight.appendChild(emailInput);
+
+  div2ndRow.appendChild(secondRowRight);
+
   subContentCnt.appendChild(subContentParaCnt);
 }
