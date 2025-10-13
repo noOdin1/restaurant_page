@@ -72,5 +72,11 @@ function loadAboutPage() {
   firstRowLeft.appendChild(firstNameInput);
 
   div1stRow.appendChild(firstRowLeft);
+
+  let firstRowRight = createElement(
+    "div",
+    ["right", "firstRow", "transparentBG"],
+    "firstRowRightDiv",
+  );
   subContentCnt.appendChild(subContentParaCnt);
 }
