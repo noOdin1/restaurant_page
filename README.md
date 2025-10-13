@@ -39,9 +39,10 @@ https://www.freepik.com/free-photo/chicken-dish-with-vegetables_967032.htm#fromV
 <a href="https://www.vecteezy.com/free-photos/lamb-curry">Lamb Curry Stock photos by Vecteezy</a> <br>
 <h4>Steak picture</h4>
 Image by <a href="https://pixabay.com/users/kandk-21762863/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6278031">kandk</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6278031">Pixabay</a><br>
+<br>
 
-2025-10-08 18:20 <br><br>
-Problem Encountered recently: <br>
+<h4>Problem Encountered recently:</h4> 
+2025-10-08 18:20 <br>
 Tried to compile using "npx webpack" after recent system update. npx returned with <br>  
 an error "Could not determine executable to run". Determined that all the packages <br>
 are there and install by checking with package.json. Also check the entries on <br>
