@@ -12,4 +12,10 @@ function loadAboutPage() {
   let contentCnt = document.getElementsByClassName("content");
   removeAllChildElemByClass(contentCnt, 0);
 
+  let subContentCnt = createElement(
+    "div",
+    ["subContent", "aboutDesc", "container", "transparentBG"],
+    "subAboutContentCnt",
+  );
+
 }
