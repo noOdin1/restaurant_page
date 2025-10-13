@@ -51,5 +51,10 @@ function loadAboutPage() {
     ["formDivCnt", "transparentBG"],
     "formFirstRow",
   );
+  let firstRowLeft = createElement(
+    "div",
+    ["left", "firstRow", "transparentBG"],
+    "firstRowLeftDiv",
+  );
   subContentCnt.appendChild(subContentParaCnt);
 }
