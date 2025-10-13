@@ -49,3 +49,10 @@ fieldset {
   padding: 0 0.2em;
 }
 
+#formFirstRow,
+#formSecondRow,
+#formThirdRow {
+  display: flex;
+  flex-direction: row;
+}
+
