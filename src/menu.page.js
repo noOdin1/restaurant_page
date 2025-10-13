@@ -42,7 +42,7 @@ function loadMenuPage() {
     "p",
     ["content", "menuDescription"],
     "secondDesc",
-    "Another one of our amazing offering is the crispy deep fried chicken dipped in sweet and sour sauce. The golden brown sauce bell peppers, vegetables and pineapple chunks will wake your senses with a zesty tingle and one taste you with an unforgettable sensation.",
+    "Another one of our amazing offering is the crispy deep fried chicken dipped in sweet and sour sauce. The golden brown sauce with vegetables and pineapple chunks will wake your senses with a zesty tingle and a taste that will make your crave for more.",
   );
 
   let thirdImg = createElement("img", ["content", "image"], "thirdImg");
