@@ -1,5 +1,6 @@
 /* about.page.js - restaurant webpage */
 
+// The 'export' directive must either be beside the funtion name or at the bottom of the page
 export default loadAboutPage;
 
 import {

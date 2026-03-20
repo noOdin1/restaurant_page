@@ -1,4 +1,6 @@
 /* Function to create and return DOM element */
+
+// The 'export' directive must either be beside the funtion name or at the bottom of the page
 export default createElement;
 
 /**
