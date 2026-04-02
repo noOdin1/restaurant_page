@@ -105,3 +105,7 @@ Deleting
 </pre>
 
 solved the problem.
+
+<h4>Webpack</h4>
+2026-03-24 17:45 <br>
+The webpack scripts has been updated to use format recommended by the webpack site,
